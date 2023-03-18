@@ -54,7 +54,7 @@ function showNewWord() {
     definition.hidden = false;
     example.hidden = false;
     genNewWord.style.display = "none";
-    document.getElementById("practice").style.display = "block"
+    // document.getElementById("practice").style.display = "block"
 
     newWord.innerHTML = i.word;
     definition.innerHTML = "<strong>Definition: </strong>" + i.definition;
