@@ -1,0 +1,116 @@
+/* =====BRAND COLORS=====
+Smoky black: #14110F
+Eerie black: #231e1a
+Tomato: #FE4A49
+Dark spring green: #0C7C59
+Jade: #11a777
+Cream: #EFF2C0
+Anti-flesh White: #F3F3F4 
+*/
+
+/* HERE STARTS THE GENERIC CSS */
+* {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #14110F
+}
+
+body {
+    background-color: #F3F3F4;
+}
+
+main {
+    padding: 50px 30px;
+    background-color: #EFF2C0;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+button {
+    background-color: #11a777;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #0C7C59;
+    cursor: pointer;
+}
+/* ----HERE ENDS THE GENERIC CSS----- */
+
+/* HERE STARTS THE BLOCK THAT NEEDS APPEAR AFTER THE BUTTON IS PRESSED */
+#new-word {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+audio {
+    display: none;
+}
+
+#definition {
+}
+
+#example {
+}
+/* -----HERE ENDS THE BLOCK THAT NEEDS APPEAR AFTER THE BUTTON IS PRESSED----- */
+
+/* HERE IS THE SECTION WHERE PEOPLE CAN TWEET A SENTENCE WHERE THEY USE THE NEW WORD */
+section.practice {
+    padding: 30px;
+}
+
+h3.consolidate {
+    font-weight: 500;
+}
+
+input[type=button] {
+    background-color: #F3F3F4;
+    border: 2px solid;
+    color: #11a777;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+input[type=button]:hover {
+    background-color: #0C7C59;
+    color: #F3F3F4;
+    cursor: pointer;
+}
+/* -----HERE ENDS THE SECTION WHERE PEOPLE CAN TWEET---- */
+
+/* HERE IS THE BLOCK OF THE FOOTER */
+footer {
+    background-color: #0C7C59;
+    padding: 30px;
+}
+
+footer h1 {
+    font-size: 20px;
+    color: #EFF2C0; 
+}
+
+footer p {
+    color: #F3F3F4;
+}
+/* -----HERE ENDS THE CSS FOR THE FOOTER----- */
+
+section#practice {
+    display: none;
+}
